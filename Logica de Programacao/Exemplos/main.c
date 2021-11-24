@@ -18,15 +18,20 @@
 #include <stdio.h>
 #include <string.h>
 
-
 int main () {
 
+  int x = 16, y = 64, aux;
+
+  printf("The value of x = %d and y = %d\n", x , y);
+  printf("Changing value between x to y, and y to x!\n");
+
+  aux = y;
+  y = x;
+  x = aux;
   
-
-
-
-
-
+  printf("Now, the value of x = %d\n", x);
+  printf("Now, the value of y = %d\n", y);
+  
   return 0;
 }
 
