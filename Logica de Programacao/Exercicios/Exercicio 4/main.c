@@ -17,7 +17,7 @@ int main() {
 
   if (cheque <= saldo) {
     printf("Descontado!\n");
-    printf("The total is %.2f\n", total);
+    printf("O total é = %.2f\n", total);
   } else {
     printf("Não foi possível descontar o cheque!");
   }
