@@ -1,3 +1,43 @@
+//Arrays Contains e indoex off
+
+
+
+
+
+
+//Array insert e remove
+
+// var reacoes = ["feliz", "triste", "nervoso", "bravo", "tranquilo"]
+
+// print(reacoes.count)
+// reacoes.insert("Doido", at: 0)
+
+// print(reacoes)
+// print(reacoes.count)
+
+// reacoes.removeAll()
+
+// print(reacoes.count)
+
+
+
+//Array Index
+
+// var reacoes = ["feliz", "triste", "nervoso", "bravo", "tranquilo"]
+
+// print(reacoes[2])
+
+// print(reacoes.first!)
+// print(reacoes.last!)
+// print(reacoes.count)
+
+// reacoes[1] = "Maluco"
+
+// print(reacoes[1])
+
+
+
+
 //Arrays
 
 // var datasCopaMundo = [1958, 1962, 1970, 1994, 2002]
