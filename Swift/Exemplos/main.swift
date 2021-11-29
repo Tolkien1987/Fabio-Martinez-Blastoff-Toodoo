@@ -1,6 +1,48 @@
+//Condicionais
+
+//Bool
+
+var payDay : Bool = true
+var moneyInPocket : Int = 0
+var tvPrice = 300
+var buyerName = "David"
+
+if payDay {
+  moneyInPocket += 500
+}
+
+if moneyInPocket >= 300 {
+  if buyerName == "David" {
+    tvPrice = 100
+  }
+  moneyInPocket -= tvPrice //Ja esta subtraindo e igualando o restante
+  print("You can buy a new TV! You will have \(moneyInPocket)\n")
+}
+
+
+var age : Int = 25
+
+var name : String = "Fábio"
+
+var myGender : Bool = true
+
+var adultAge : Bool = false 
+
+if adultAge {
+  print("\(name) , you can have you driver license\n")
+} else {
+  print("\(name) , you're under 18 years old. You cannot have your Driver License yet\n")
+}
+
+// _ _ _ _ _ _ //
+
+
 //Arrays Contains e indoex off
+// var reacoes = ["feliz", "triste", "nervoso", "bravo", "tranquilo"]
 
+// print(reacoes.contains("feliz"))
 
+// print(reacoes.index(of: "bravo"))
 
 
 
