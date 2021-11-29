@@ -1,5 +1,40 @@
 //Condicionais
 
+//And (&&) - Or (||)
+
+var userAge = 17
+
+if userAge >= 17 && userAge <= 24 {
+  print("Você pode ser alistar!\n")
+} else {
+  print("Você nao esta na faixa etária de alistamento!\n")
+}
+
+var sorveteriaAberta = true
+var notaProva = 8
+
+if sorveteriaAberta == true || notaProva >= 8 {
+  print("Eba! Vamos tomar um sorvete!\n")
+} else {
+  print("Você não vai tomar sorvete : ( \n")
+}
+
+
+
+
+//else
+
+var girlName = "Patricia"
+var herAge = 17
+
+if herAge >= 18 {
+  print("\(girlName) You are over 18 y.o\n")
+} else {
+  print("\(girlName) You are under 18 y.o\n")
+}
+
+
+
 //Bool
 
 var payDay : Bool = true
