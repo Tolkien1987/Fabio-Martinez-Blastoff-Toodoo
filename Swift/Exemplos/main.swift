@@ -1,8 +1,28 @@
 //Condicionais
 
+// if // Else if // Else
+
+var fighterWeight : Float = 86.5
+
+if fighterWeight <= 45.5 {
+  print("Peso mosca!")
+} else if fighterWeight <= 62.5 {
+  print("Peso galo!")
+} else if fighterWeight <= 68.3 {
+  print("Peso pena!")
+} else if fighterWeight <= 76.8 {
+  print("Peso Leve!")
+} else if fighterWeight <= 88.5 {
+  print("Peso médio!")
+} else {
+  print("Peso Pesado!")
+}
+
+
+
 //And (&&) - Or (||)
 
-var userAge = 17
+var userAge = 18
 
 if userAge >= 17 && userAge <= 24 {
   print("Você pode ser alistar!\n")
