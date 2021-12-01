@@ -1,3 +1,17 @@
+// For Loops
+
+for _ in 1...10 {
+  print("Este ciclo acabou de acontecer!\n")
+}
+
+for numbers in 1...20 { //criando a var já no loop e só acessivel dentro deste for loop
+  print("Este é o \(numbers)° ciclo.\n")
+}
+  
+
+// _ _ _ _ _ //
+
+
 // Switch e intervalores
 
 var jarraDeAgua = 1000.1
