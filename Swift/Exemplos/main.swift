@@ -1,4 +1,51 @@
+
+
+
+
+
+// _ _ _ _ _ _ _ _ //
+
+
+//Repeat while    -  Verifica a condicional depois de exercutar o codigo
+
+var pizza = 1
+
+repeat {
+
+  print("Number of pizzas is = \(pizza)\n")
+  pizza += 1
+
+} while pizza <= 5
+
+
+
+//While loop   -  Verifica a condicional antes de exercutar o codigo
+
+var pizzaCounter = 1
+
+while pizzaCounter <= 5 {
+  print("The number of pizzas is \(pizzaCounter)\n")
+
+  pizzaCounter += 1
+}
+
+
+
+
+//For loops e Arrays
+
+
+var array : [String] = ["Monja Coen", "Cortella", "Lula", "Tiririca", "Einstein", "Pele"] 
+
+for name in array {
+  print("O nome dentro da array é \(name)\n")
+}
+
+
+
 // For Loops
+
+
 
 for _ in 1...10 {
   print("Este ciclo acabou de acontecer!\n")
