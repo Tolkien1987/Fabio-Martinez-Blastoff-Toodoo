@@ -1,3 +1,20 @@
+//Switches (Interruptor)
+
+var letra = "a"
+
+switch letra {
+case "a":
+  print("Primeira letra do alfabeto.\n")
+case "z":
+  print("Última letra do alfabeto.\n")
+default:
+  print("A letra escolhida não das duas anteriores")
+}
+
+
+
+
+
 //Condicionais
 
 // if // Else if // Else
