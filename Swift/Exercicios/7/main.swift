@@ -15,16 +15,18 @@ switch likeIcecream {
 }
 
 //2
-var income = 10000000
+var income = 1000
 
 switch income {
-  case 0..<999:
+  case 0..<1000:
     print("Sorry. You are a poor man. Keep going\n")
-  case 1000..<3999:
+  case 1000..<4000:
     print("Middle class. Not good but not bad...\n")
   case 4000..<10000:
     print("Yeah, you are an iOS Developer!\n")
-  case 500000..<100000000:
+  case 10000..<500000:
+    print("Tech Lead\n")
+  case 50000..<100000:
     print("Silvio Santos\n")
   default:
     print("You are an student\n")
