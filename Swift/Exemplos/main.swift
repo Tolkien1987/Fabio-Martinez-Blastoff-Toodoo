@@ -1,9 +1,34 @@
+//Funções
 
+func infoDeAlguem(nome: String, idade: Int, sexo: String) {
+
+print("\(nome) tem \(idade) anos e é do sexo \(sexo)\n")
+
+}
+
+infoDeAlguem(nome: "Fábio", idade: 18, sexo: "Masculino")
+
+
+//Funcoes
+
+func informacoesDePedro() {
+
+let nome : String = "Pedro"
+let idade : Int = 18
+let sexo : String = "Masculino"
+
+print("\(nome) tem \(idade) anos e é do sexo \(sexo) \n")
+
+}
+
+informacoesDePedro()
 
 
 
 
 // _ _ _ _ _ _ _ _ //
+
+
 
 
 //Repeat while    -  Verifica a condicional depois de exercutar o codigo
