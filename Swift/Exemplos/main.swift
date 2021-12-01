@@ -1,4 +1,34 @@
+// Switch e intervalores
+
+var jarraDeAgua = 1000.1
+
+switch jarraDeAgua {
+  case 0..<1000:
+    print("Essa jarra tem menos que 1L\n")
+  case 1000..<1999:
+    print("Essa jarra tem de 1L até menos de 2L\n")
+  case 2000..<3000:
+    print("Essa jarra tem mais de 2L\n")
+  default:
+    print("Não sabemos o conteudo da jarras...\n")
+}
+
+
+
+// Switches sem default
+
+var careca : Bool = true
+
+switch careca {
+case true:
+  print("Essa pessoa é careca!\n")
+case false:
+  print("Essa pessoa não é careca!\n")
+}
+
+
 //Switches (Interruptor)
+
 
 var letra = "a"
 
@@ -8,11 +38,11 @@ case "a":
 case "z":
   print("Última letra do alfabeto.\n")
 default:
-  print("A letra escolhida não das duas anteriores")
+  print("A letra escolhida não das duas anteriores\n")
 }
 
 
-
+// _ _ _ _ _ //
 
 
 //Condicionais
@@ -22,17 +52,17 @@ default:
 var fighterWeight : Float = 86.5
 
 if fighterWeight <= 45.5 {
-  print("Peso mosca!")
+  print("Peso mosca!\n")
 } else if fighterWeight <= 62.5 {
-  print("Peso galo!")
+  print("Peso galo!\n")
 } else if fighterWeight <= 68.3 {
-  print("Peso pena!")
+  print("Peso pena!\n")
 } else if fighterWeight <= 76.8 {
-  print("Peso Leve!")
+  print("Peso Leve!\n")
 } else if fighterWeight <= 88.5 {
-  print("Peso médio!")
+  print("Peso médio!\n")
 } else {
-  print("Peso Pesado!")
+  print("Peso Pesado!\n")
 }
 
 
@@ -42,7 +72,7 @@ if fighterWeight <= 45.5 {
 var userAge = 18
 
 if userAge >= 17 && userAge <= 24 {
-  print("Você pode ser alistar!\n")
+  print("Você pode se alistar!\n")
 } else {
   print("Você nao esta na faixa etária de alistamento!\n")
 }
