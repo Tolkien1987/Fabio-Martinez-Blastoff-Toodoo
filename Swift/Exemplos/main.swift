@@ -1,3 +1,30 @@
+//Funcoes com Return
+
+
+func somarNumeros(n1: Int, n2: Int) -> Int {
+  return n1+n2
+}
+
+let resultado = somarNumeros(n1: 79, n2: 2449)
+print(resultado)
+
+
+
+func somarDecimais(num1: Float, num2: Double, num3: Int) -> Double {
+
+  let somaNumber = Double(num1) + num2 + Double(num3)
+  
+  return somaNumber
+}
+
+var resultadoSomaDecimais : Double = 0.0
+print("Resultado da soma dos decimais é \(resultadoSomaDecimais)\n")
+resultadoSomaDecimais = somarDecimais(num1: 25.1, num2: 67.4, num3: 5)
+print("Resultado da soma dos decimais é \(resultadoSomaDecimais)\n")
+
+
+
+
 //Funções
 
 func infoDeAlguem(nome: String, idade: Int, sexo: String) {
