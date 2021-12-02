@@ -1,3 +1,36 @@
+//Tuplas
+
+//São tipos de dados / Data types como Ints, String, Double exercutar
+
+//Porém, podem conter diversos valores de diversos DAta Types diferentes
+
+//Diferente de Arrays, depois de declaradas, as Tuplas não podem adicionar ou remover valores
+
+
+
+
+//Tuplas com explicitas
+
+
+
+
+//1 Criar Tuplas
+var pedro = (25, "Castanhos", true)
+
+//2 print
+print("Pedro tem \(pedro.0) anos, tem olhos \(pedro.1) e é homem \(pedro.2)\n")
+
+var pedroMelhor = (idade: 25, corDosOlhos: "Castanhos", eHomem: true)
+print("Pedro Melhor tem \(pedroMelhor.idade) anos, olhos \(pedroMelhor.corDosOlhos) e é homem \((pedroMelhor.eHomem))\n")
+
+
+
+
+
+// _ _ _ _ _ _ _ _ //
+
+
+
 //Funcoes com Return
 
 
