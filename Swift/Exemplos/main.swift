@@ -1,3 +1,51 @@
+//Opcionais 2
+
+var horaAventura: String? = "hora de eventura"
+
+//print(horaAventura)
+
+//horaAventura?.uppercased()
+
+//opitional binding
+if let nomeDoDesenho = horaAventura {
+  print(nomeDoDesenho)
+} else {
+  print("Não existe valor aqui dentro\n")
+}
+
+
+
+//Opicionais
+
+//! = Confirmar existencia de valor (Force unwrap) não recomendável uso!
+
+//! = Pode ser usada também para negar um valor
+//!= Usado para negar valor
+//== Valores iguais
+
+//Nil = ausencia de valor
+//Para declar NIL, é obrigatorio o uso de "?" opicionalidade!
+var idade : Int? = nil
+
+//Opicionais - valor opcional sera 10
+var idadeCrianca : Int? = 10
+
+if idadeCrianca == nil {
+  print("Não existe nenhum valor!\n")
+} else {
+  print("Existe um valor!\n")
+}
+
+
+
+
+
+
+
+// _ _ _ _ _ _ _ //
+
+
+
 //Tuplas
 
 //São tipos de dados / Data types como Ints, String, Double exercutar
