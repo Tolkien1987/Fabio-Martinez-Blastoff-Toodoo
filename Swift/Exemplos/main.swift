@@ -1,3 +1,28 @@
+//Classes
+
+class Mesa {
+
+var cor = "Amarelo"
+var altura = 80
+var numeroPernas = 4
+}
+
+var minhaMesa = Mesa()
+
+minhaMesa.altura
+minhaMesa.cor
+minhaMesa.numeroPernas
+
+minhaMesa.altura = 100
+
+
+
+// _ _ _ _ _ _ _ _ _ _ //
+print("      ")
+
+
+
+
 //Opcionais 2
 
 var horaAventura: String? = "hora de eventura"
