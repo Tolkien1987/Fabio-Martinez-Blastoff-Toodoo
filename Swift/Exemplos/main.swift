@@ -5,15 +5,24 @@ class Mesa {
 var cor = "Amarelo"
 var altura = 80
 var numeroPernas = 4
+
+var largura = 0
+var comprimento 0
 }
 
-var minhaMesa = Mesa()
+var mesaSala = Mesa()
+mesaDaSala.cor = "Azul"
+mesaDaSala.altura = 130
+mesaDaSala.numeroPernas = 10
+mesaDaSala.largura = 300
+mesaDaSala.comprimento = 500
 
-minhaMesa.altura
-minhaMesa.cor
-minhaMesa.numeroPernas
-
-minhaMesa.altura = 100
+var mesaQuarto = Mesa()
+mesaQuarto.cor "Preta"
+mesaQuarto.altura = 120
+mesaQuarto.numeroPernas = 4
+mesaQuarto.largura = 300
+mesaQuarto.comprimento = 500
 
 
 
