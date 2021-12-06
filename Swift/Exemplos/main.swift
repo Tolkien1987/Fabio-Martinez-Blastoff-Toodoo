@@ -1,5 +1,28 @@
+//Classes Inicializacao
+
+class Car {
+
+  var brand = String()
+  var model = String()
+  var maxSpeed = Int() 
+  var type = String()
+
+  init(){
+
+  }
+
+  init(carBrand: String, carModel: String) {
+
+  }
+
+}
+
+var tesla = Car()
 
 
+var tesla2 = Car(carBrand: "Tesla", carModel: "Model 3")
+tesla2.brand
+tesla.carModel
 
 
 
