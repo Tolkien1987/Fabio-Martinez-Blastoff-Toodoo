@@ -1,28 +1,92 @@
-//Classes
+//Propriedades Computadas
 
-class Mesa {
 
-var cor = "Amarelo"
-var altura = 80
-var numeroPernas = 4
 
-var largura = 0
-var comprimento 0
+
+
+
+
+
+
+//Classes e multiplos objetos
+
+
+
+class Desk {
+  
+  var colour = ""
+  var height = 0
+  var legs = 0
+  var width = 0
+  var length = 0
 }
 
-var mesaSala = Mesa()
-mesaDaSala.cor = "Azul"
-mesaDaSala.altura = 130
-mesaDaSala.numeroPernas = 10
-mesaDaSala.largura = 300
-mesaDaSala.comprimento = 500
+var livingDesk = Desk()
+livingDesk.colour = "Blue"
+livingDesk.height = 120
+livingDesk.legs = 10
+livingDesk.width = 300
+livingDesk.length = 500
 
-var mesaQuarto = Mesa()
-mesaQuarto.cor "Preta"
-mesaQuarto.altura = 120
-mesaQuarto.numeroPernas = 4
-mesaQuarto.largura = 300
-mesaQuarto.comprimento = 500
+var bedroomDesk = Desk()
+bedroomDesk.colour = "Black"
+bedroomDesk.height = 120
+bedroomDesk.legs = 4
+bedroomDesk.width = 100
+bedroomDesk.length = 60
+
+var kitchenDesk = Desk()
+kitchenDesk.colour = "White"
+kitchenDesk.height = 100
+kitchenDesk.legs = 3
+kitchenDesk.width = 80
+kitchenDesk.length = 80
+
+var deskCollection : [Desk] = [livingDesk, bedroomDesk, kitchenDesk]
+
+print("What is the colour of any desk?")
+
+for desks in deskCollection {
+  print(desks.colour)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Classes
+
+// class Mesa {
+
+// var cor = "Amarelo"
+// var altura = 80
+// var numeroPernas = 4
+
+// var largura = 0
+// var comprimento 0
+// }
+
+// var mesaSala = Mesa()
+// mesaSala.cor = "Azul"
+// mesaSala.altura = 130
+// mesaSala.numeroPernas = 10
+// mesaSala.largura = 300
+// mesaSala.comprimento = 500
+
+// var mesaQuarto = Mesa()
+// mesaQuarto.cor = "Preta"
+// mesaQuarto.altura = 120
+// mesaQuarto.numeroPernas = 4
+// mesaQuarto.largura = 300
+// mesaQuarto.comprimento = 500
 
 
 
