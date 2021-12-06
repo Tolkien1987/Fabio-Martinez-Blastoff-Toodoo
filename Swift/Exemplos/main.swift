@@ -1,4 +1,4 @@
-//Propriedades Computadas
+
 
 
 
@@ -19,36 +19,55 @@ class Desk {
   var legs = 0
   var width = 0
   var length = 0
+
+  var deskArea : Double {
+
+    let totalArea : Double = Double(width)/100 * Double(length)/100  //Propriedades computadas
+    return totalArea
+
+  }
+
+  func calculateVolume(area: Double, height2: Int) -> Double {
+
+    let volume : Double = area * Double(height2)/100
+    return volume
+
+  }
+
 }
 
 var livingDesk = Desk()
-livingDesk.colour = "Blue"
-livingDesk.height = 120
-livingDesk.legs = 10
+//livingDesk.colour = "Blue"
+livingDesk.height = 150
+//livingDesk.legs = 10
 livingDesk.width = 300
 livingDesk.length = 500
 
-var bedroomDesk = Desk()
-bedroomDesk.colour = "Black"
-bedroomDesk.height = 120
-bedroomDesk.legs = 4
-bedroomDesk.width = 100
-bedroomDesk.length = 60
+print(livingDesk.calculateVolume(area: livingDesk.deskArea, height2: livingDesk.height))
 
-var kitchenDesk = Desk()
-kitchenDesk.colour = "White"
-kitchenDesk.height = 100
-kitchenDesk.legs = 3
-kitchenDesk.width = 80
-kitchenDesk.length = 80
+// var bedroomDesk = Desk()
+// bedroomDesk.colour = "Black"
+// bedroomDesk.height = 120
+// bedroomDesk.legs = 4
+// bedroomDesk.width = 100
+// bedroomDesk.length = 60
+// bedroomDesk.deskArea
 
-var deskCollection : [Desk] = [livingDesk, bedroomDesk, kitchenDesk]
+// var kitchenDesk = Desk()
+// kitchenDesk.colour = "White"
+// kitchenDesk.height = 100
+// kitchenDesk.legs = 3
+// kitchenDesk.width = 80
+// kitchenDesk.length = 80
+// kitchenDesk.deskArea
 
-print("What is the colour of any desk?")
+// var deskCollection : [Desk] = [livingDesk, bedroomDesk, kitchenDesk]
 
-for desks in deskCollection {
-  print(desks.colour)
-}
+// print("What is the colour of any desk?")
+
+// for desks in deskCollection {
+//   print(desks.deskArea)
+// }
 
 
 
