@@ -1,3 +1,14 @@
+//Structs
+
+
+
+
+
+
+// _ _ _ _ _ //
+
+
+
 //Classes Inicializacao
 
 class Car {
@@ -5,13 +16,16 @@ class Car {
   var brand = String()
   var model = String()
   var maxSpeed = Int() 
-  var type = String()
+  var type = String?
 
   init(){
 
   }
 
-  init(carBrand: String, carModel: String) {
+  init(carBrand: String, carModel: String, carType: String?) {
+    brand = carBrand
+    model = carModel
+    type = carType
 
   }
 
@@ -20,9 +34,11 @@ class Car {
 var tesla = Car()
 
 
-var tesla2 = Car(carBrand: "Tesla", carModel: "Model 3")
+var tesla2 = Car(carBrand: "Tesla", carModel: "Model 3", carType: nil)
 tesla2.brand
-tesla.carModel
+tesla2.carModel
+tesla2.type
+
 
 
 
