@@ -1,6 +1,53 @@
+//Enum
+
+enum RosaDosVentos {
+
+  case Norte
+  case Sul
+  case Leste
+  case Oeste
+
+}
+
+var direcaoBusola = RosaDosVentos.Norte
+
+if direcaoBusola == .Leste {
+
+  print("Dobre a esquerda!")
+} else if direcaoBusola == .Norte {
+  print("Seguir adiante!")
+}
+
+
+
+
+
 //Structs
 
+struct Filme {
 
+var nomeDoFilme = String()
+var anoDeLancamento = Int()
+
+var idadeDoFilme : Int {
+  let idadeDoFilme = 2021 - anoDeLancamento
+  return idadeDoFilme
+}
+
+init() {
+
+}
+
+init(nomeDoFilme: String, anoDeLancamento: Int) {
+  self.nomeDoFilme = nomeDoFilme
+  self.anoDeLancamento = anoDeLancamento
+  }
+}
+
+var starWars = Filme()
+starWars.nomeDoFilme = "Star Wars"
+
+var starWarsCopia = starWars
 
 
 
@@ -11,33 +58,33 @@
 
 //Classes Inicializacao
 
-class Car {
+// class Car {
 
-  var brand = String()
-  var model = String()
-  var maxSpeed = Int() 
-  var type = String?
+//   var brand = String()
+//   var model = String()
+//   var maxSpeed = Int() 
+//   var type = String?
 
-  init(){
+//   init(){
 
-  }
+//   }
 
-  init(carBrand: String, carModel: String, carType: String?) {
-    brand = carBrand
-    model = carModel
-    type = carType
+//   init(carBrand: String, carModel: String, carType: String?) {
+//     brand = carBrand
+//     model = carModel
+//     type = carType
 
-  }
+//   }
 
-}
+// }
 
-var tesla = Car()
+// var tesla = Car()
 
 
-var tesla2 = Car(carBrand: "Tesla", carModel: "Model 3", carType: nil)
-tesla2.brand
-tesla2.carModel
-tesla2.type
+// var tesla2 = Car(carBrand: "Tesla", carModel: "Model 3", carType: nil)
+// tesla2.brand
+// tesla2.carModel
+// tesla2.type
 
 
 
