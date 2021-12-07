@@ -1,3 +1,45 @@
+//Override (sobrepor) / Super (acesso a hierarquia superior)
+
+
+
+
+//Herança - Subclasses
+
+class SerVivo {
+  var nome = ""
+  var idade = 0
+}
+
+class Ave : SerVivo {
+  var quantidadeAsas = 0
+}
+
+class Galinha : Ave {
+  var quantidadePenas = 0
+}
+
+var galinha = Galinha(
+  galinha.
+)
+
+var passarinho = Ave()
+passarinho.nome = "Curió"
+passarinho.idade = 1
+passarinho.quantidadeAsas = 2
+
+
+
+
+
+
+
+print("")
+
+
+
+
+
+
 //Enum - RawValues e HashValues
 
 enum RosaDosVentos : String {
