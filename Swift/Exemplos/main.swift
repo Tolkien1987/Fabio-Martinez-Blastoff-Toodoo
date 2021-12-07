@@ -1,22 +1,54 @@
+//Enum - RawValues e HashValues
+
+enum RosaDosVentos : String {
+
+  case Norte = "Rumo à America!"
+  case Sul = "Voce quer ir para o Polo Sul, mesmo?"
+  case Leste = "Você esta à caminho da Alemanha, Prost!!!"
+  case Oeste = "Voce está no caminho errado, volte!"
+
+}
+
+var direcaoBusola = RosaDosVentos.Oeste
+
+if direcaoBusola == .Norte {
+  print(direcaoBusola.rawValue)
+
+}else if direcaoBusola == .Sul {
+  print(direcaoBusola.rawValue)
+
+}else if direcaoBusola == .Leste {
+  print(direcaoBusola.rawValue)
+
+}else if direcaoBusola == .Oeste {
+  print(direcaoBusola.hashValue)
+
+}  
+
+
+
+
+
+
 //Enum
 
-enum RosaDosVentos {
+// enum RosaDosVentos  {
 
-  case Norte
-  case Sul
-  case Leste
-  case Oeste
+//   case Norte
+//   case Sul
+//   case Leste
+//   case Oeste
 
-}
+// }
 
-var direcaoBusola = RosaDosVentos.Norte
+// var direcaoBusola = RosaDosVentos.Norte
 
-if direcaoBusola == .Leste {
+// if direcaoBusola == .Leste {
 
-  print("Dobre a esquerda!")
-} else if direcaoBusola == .Norte {
-  print("Seguir adiante!")
-}
+//   print("Dobre a esquerda!")
+// } else if direcaoBusola == .Norte {
+//   print("Seguir adiante!")
+// }
 
 
 
